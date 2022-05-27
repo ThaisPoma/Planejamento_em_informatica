@@ -6,8 +6,6 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /* Change favorite color to match images */
-  /*Green dark 190 - Green 171 - Grren Blue 200*/
   --hue-color: 115;
 
   /* HSL color mode */
@@ -137,14 +135,12 @@ a {
   text-decoration: none;
 }
 
-img,
-video {
+img, video {
   max-width: 100%;
   height: auto;
 }
 
-button,
-input {
+button, input {
   border: none;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -614,7 +610,7 @@ input {
   font-size: var(--small-font-size);
 }
 
-.place__subtitle, .place__price {
+.place__subtitle {
   display: block;
 }
 
@@ -853,7 +849,7 @@ input {
     text-transform: initial;
   }
   .nav__link:hover {
-    color: rgb(100, 150, 100)
+    color: rgb(100, 150, 100);
   }
   .nav__dark {
     position: initial;
